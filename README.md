@@ -1,59 +1,66 @@
-##NOTICE (Updated 07-14-2015)
+###NOTICE (Updated 07-24-2015)
 
-1. We'd like to know your thoughts on marking edited lines. Please let us know through the issue [**HERE**](https://github.com/Treeofsavior/EnglishTranslation/issues/476)
+##FORK B
 
-2. Translation files have been **UPDATED**. There may be some lines with unusual spacings to fit the actual game UI's. We had to make inevitable changes to the line codes for lines dated after 20150511. **(NEW)**
+##TOS辣条汉化组
 
-3. Have you checked out our official Forums? Click [**HERE**](https://forum.treeofsavior.com/) move to the forums for discussion. Please login and click on the github icon to link your github account to it as well.
-
-4. Please use the latest file version before editing the translations :)
-
-5. Scroll down for a preview of how real-time translation works in game! 
-
-6. Be sure to take a look at the [**Wiki**](https://github.com/Treeofsavior/EnglishTranslation/wiki) page for guides and reminders before sending us your translations.
+<img src="http://image17-c.poco.cn/mypoco/myphoto/20150717/10/17820861720150717105104069.jpg"/>
 
 
-<center><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/969383_419497041509849_21485321_n.jpg?oh=4f5a38d7c9f8c311b803b4adb80a0a28&oe=56347E65&__gda__=1444560791_5463c6dc462165446fcead1c56bef11d"/></center>
-# Tree of Savior Open Text Client (OTC)   
-Welcome to the Tree of Savior OTC Github Repository.
+1. 这里是Tree of Savior辣条汉化组，自愿者们将官英汉化成简体中文。｡◕‿◕｡
+    项目的英语包源自官方项目:  
+    https://github.com/Treeofsavior/EnglishTranslation
 
-This repository is dedicated to translating Tree of Savior game texts from **Korean to English**. Our goal is to complete the English translations first so that it can be used to translate the game to other non-English languages. 
+2. 我们曾经是RO2韩语汉化包制作团队，现在欢迎喜爱RO系列以及有热心的同伴加入!ヾ(o◕∀◕)ﾉ  
+   （QQ群：250998210）
 
-We hope our disclosing of game texts and opening this repository will pave a quicker way for our non-English speaking fans to enjoy the game in their native languages in the future. 
+###更新日志
+1. 英文原版内容同步至0723官英(同期CBT3推出)  
+      更新内容[只包含_en文件]  
+      标注了日期的为旧文件  
+      未标注日期的为当前版本  
 
-You can read about our plans for the international version of Tree of Savior in our [Dev Blog](http://blog.treeofsavior.com/en/)
+2. 旧版en文件增加日期后留存, 作为与新文件的差异对照
 
+####compare文件使用说明
+EX:    
+      A...B.cp     这个文件名表示用A文件对比B文件,  
+      对比的结果, 上面一行属于A下面属于B.  
 
-## Real-Time Translation
-Here's a sneak preview of how real-time translation would function in game. (may be subject to changes)
+    1    aaa  
+    1    aab  
 
-Use Ctrl+Shft+Mouse Click on text to edit
-![real time](http://blog.treeofsavior.com/en/wp-content/uploads/sites/4/2015/04/sample4.gif)
+    2    cca  
+    2    ccb  
 
-## Contributions
+      对比中会有如上内容, 两行一组, 可以以句首ID辨别句子位置,  
+      组中第一排对应文件A, 第二排对应B.  
 
-We welcome your contributions in form of pull requests. 
+###汉化约定
 
-To prevent the situation where many people would translate the same lines, please comment and indicate which lines you'd be contributing to in the "Lines for Translation" issue found in the 'Issues' menu so that others would skip those lines.
+1. 请不要使用WINDOWS自带的记事本打开以及保存文件 ∑(っ °Д °;)っ
 
-You may also create new issues to discuss the translations with other translators. Please note that issues not related to translation may be deleted without notice. 
+2. 请保持utf-8编码 ∑(っ °Д °;)っ
 
+3. 提交文件的说明请简单注明提交者名称/日期以及更改的ID段 ∑(っ °Д °;)っ
 
-<img src="https://lh4.googleusercontent.com/YGwDvBpboqxwxWIEibS85PHXcV-wnPQvMMLQC17m3wY=w1028-h478-no"/>
+4. 开工之前，请务必先看看提交记录，请勿重复劳动／人◕ ‿‿ ◕人＼
 
-#### Don't know Korean but still want to contribute?  
+5. 因为编码问题，不要轻易删除原文句头句尾和命令语句前后的任何空格！以及标点符号！
 
-You can still contribute by editing translation errors :)
+6. 汉化工作流程：
 
-**Tip:** The translations should be kept as short as possible to fit in game UI. 
+A ---> B ，所有成员forkB，merge到B  
 
+A更新时，对比AB差异，优先汉化A的更新部分  
 
-## Game Screenshots
+进度一致时，冻结B，fork出稳定版C  
+
+### 中文翻译示例
+<img src="http://image17-c.poco.cn/mypoco/myphoto/20150717/10/17820861720150717105108041.jpg"/>
+
+### EN Game Screenshots
 <img src="http://blog.treeofsavior.com/en/wp-content/uploads/sites/4/2015/03/2-1024x594.jpg"/>
 <img src="http://blog.treeofsavior.com/en/wp-content/uploads/sites/4/2015/03/1-1024x595.jpg"/>
 <img src="http://blog.treeofsavior.com/en/wp-content/uploads/sites/4/2015/03/screenshot_20150319_00015-1024x578.jpg"/>
 <img src="http://blog.treeofsavior.com/en/wp-content/uploads/sites/4/2015/03/screenshot_20150319_00014-1024x578.jpg"/>
-
-
-
-
